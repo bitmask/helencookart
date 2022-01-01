@@ -3,7 +3,7 @@
 BUILD=build
 
 mkdir -p ${BUILD}
-cp -v site/* ${BUILD}/
+cp -rv site/* ${BUILD}/
 for i in site/*.md ; do
     OUTBASE=${i%.md}
     OUTSTEM=${OUTBASE#site/}
