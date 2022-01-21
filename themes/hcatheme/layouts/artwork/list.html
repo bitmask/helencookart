@@ -1,0 +1,21 @@
+
+{{ define "main" }}
+
+<section>
+  <div>
+    {{ range $galleryname, $gallery := .Site.Taxonomies.galleries}}
+        <div>
+            <h3> {{ title $galleryname }} </h3>
+		</div>
+		<div>
+                {{ range $gallery.Pages }}
+            		<a class="summary" href="{{ .RelPermalink }}">
+                		<img src="/{{ .Params.image }}" width=200px>
+                    </a>
+                    <!-- {{ .LinkTitle }} -->
+                {{ end }}
+		</div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

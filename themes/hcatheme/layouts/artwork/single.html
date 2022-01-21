@@ -1,0 +1,13 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<img src="/{{ .Params.image }}" width=200px>
+<div>
+media: {{ .Params.media }}
+</div>
+<div>
+dimensions: {{ .Params.dimensions }}
+</div>
+<div>{{ .Params.description }}</div>
+<br><br>
+{{ .Content }}
+{{ end }}

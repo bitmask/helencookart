@@ -1,0 +1,48 @@
+
+
+  <div class="container">
+	  <div class="row">
+<!--          
+          <div class="three columns">
+              <center>
+              <a href="/">
+    <img src="{{ .Site.Params.logo }}" width=100px>
+              </a>
+              </center>
+          </div>
+          <div class="nine columns">
+                <h3><a href="/"> {{ .Site.Title }}</a></h3>
+          </div>
+-->
+		  <div class="offset-by-three columns">
+			  <div class="nine columns">
+                <h3><a href="/"> {{ .Site.Title }}</a></h3>
+			  </div>
+		  </div>
+	  </div>
+	  <div class="row">
+		  <div class="three columns">
+      			<div class="menu">
+				    {{ range .Site.Menus.main }}
+				    <div class="menuentry"><a href="{{ .URL }}">{{ .Name }}</a></div>
+				    {{ end }}
+				    <!-- light/dark mode toggle
+                        <div class="menuentry"><a href=""></a></div> 
+                    -->
+                    <div class="menuentry">
+                        <a href="mailto:{{ .Site.Params.email }}?subject={{ .Site.Params.emailsubject }}">{{ .Site.Params.email }}</a>
+                    </div>
+                    <div class="menuentry">
+                        <a href="{{ .Site.Params.instagramlink }}">{{ .Site.Params.instagramhandle }}</a>
+                    </div>
+
+      			</div>
+		</div>
+  		<div class="nine columns">
+
+
+
+
+
+
+

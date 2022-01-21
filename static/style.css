@@ -1,0 +1,26 @@
+
+/*
+ * Site specific styling
+*/
+
+
+:root {
+    color-scheme: light dark;
+}
+
+/* Links
+ ******************************************************************************/
+a:link, a:visited {
+    color: var(--colmain);
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: var(--colaccent);
+}
+
+body {
+    background-color: var(--colbackground);
+    color: var(--coltext);
+}
+

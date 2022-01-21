@@ -1,0 +1,34 @@
+baseURL = "http://helencook.art/"
+languageCode = "en-us"
+title = "Helen Cook Art"
+theme = "hcatheme"
+
+[Params]
+    # site logo
+    logo = "/logo.png"
+    # params for links in the menu
+    email = "helen.cook@gmail.com"
+    emailsubject = "Mail from HelenCook.art"
+    instagramlink = "http://instagram.com/helencook"
+    instagramhandle = "@helencook"
+
+[taxonomies]
+  gallery="galleries"
+
+[menu]
+  [[menu.main]]
+    name="Artwork"
+    url="/artwork"
+    weight=2
+#  [[menu.main]]
+#    name="Colours"
+#    url="/colours"
+#    weight=3
+  [[menu.main]]
+    name="Blog"
+    url="/blog"
+    weight=4
+  [[menu.main]]
+    name="About"
+    url="/about"
+    weight=5

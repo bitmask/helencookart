@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/normalize.css">
+  <link rel="stylesheet" href="/skeleton.css">
+
+  <script>
+        // If `prefers-color-scheme` is not supported, fall back to light mode.
+        // In this case, light.css will be downloaded with `highest` priority.
+        if (window.matchMedia('(prefers-color-scheme: dark)').media === 'not all') {
+                document.documentElement.style.display = 'none';
+                document.head.insertAdjacentHTML(
+                          'beforeend',
+                          '<link rel="stylesheet" href="/dark.css" onload="document.documentElement.style.display = \'\'">',
+                        );
+              }
+  </script>
+  <!--
+        Conditionally either load the light or the dark stylesheet. The matching file
+          will be downloaded with `highest`, the non-matching file with `lowest`
+            priority. If the browser doesn't support `prefers-color-scheme`, the media
+              query is unknown and the files are downloaded with `lowest` priority (but
+                above I already force `highest` priority for my default light experience).
+  -->
+  <link rel="stylesheet" href="/dark.css" media="(prefers-color-scheme: dark)" />
+  <link rel="stylesheet" href="/light.css" media="(prefers-color-scheme: light)" />
+  <link rel="stylesheet" href="/style.css" />
+
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <script src="script.js" type="text/javascript"></script>
+
+    {{ $title := print .Site.Title " | " .Title }}
+    {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+    <title>{{ $title }}</title>
+</head>

@@ -1,0 +1,9 @@
+/* light theme */
+
+
+:root {
+      --colmain: rgb(0, 0, 0);
+      --colaccent: rgb(0, 0, 0);
+      --colneutral: rgb(0, 0, 0);
+      --colbackground: rgb(255, 255, 255);
+    }

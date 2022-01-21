@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div>
+    <h5>{{ .Params.catchphrase }}</h5>
+</div>
+<div>
+    <img src="{{ .Params.image }}" width="100%">
+</div>
+<div>
+    {{ .Content }}
+</div>
+{{ end }}
