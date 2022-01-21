@@ -4,20 +4,11 @@ The barest minimum.
 
 ## Build the site
 
-Install [Pandoc](https://pandoc.org/) if necessary, then:
+Install hugo if necessary.
 
-    bin/build.sh
+hugo server -D --bind 0.0.0.0 --baseURL 192.168.1.135
 
-The built site is in the `build` directory.
-
-## View the site locally
-
-Install Python if necessary, then:
-
-    cd build
-    python3 -m http.server
-
-Test by going to [http://localhost:8000/](http://localhost:8000/)
+Site is available at 192.168.1.135:1313
 
 ## Deploy the site
 
