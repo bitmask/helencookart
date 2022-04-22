@@ -3,7 +3,11 @@
     <h5>{{ .Params.catchphrase }}</h5>
 </div>
 <div>
-    <img src="{{ .Params.image }}" width="100%">
+    {{ $res := resources.Get .Params.image | default "" }}
+    {{ if $res }}
+        {{ $res := $res.Fill "1000x1000" }}
+        <img src="{{ $res.RelPermalink }}" alt="" width="100%">
+    {{ end }}
 </div>
 <div>
     {{ .Content }}

@@ -2,6 +2,7 @@ baseURL = "http://helencook.art/"
 languageCode = "en-us"
 title = "Helen Cook Art"
 theme = "hcatheme"
+assetDir = "assets"
 
 [Params]
     # site logo
@@ -11,6 +12,7 @@ theme = "hcatheme"
     emailsubject = "Mail from HelenCook.art"
     instagramlink = "http://instagram.com/helencook"
     instagramhandle = "@helencook"
+    etsy = "http://etsy.com/uk/shop/HelenCookArt"
 
 [taxonomies]
   gallery="galleries"

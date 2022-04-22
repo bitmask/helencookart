@@ -29,11 +29,17 @@
 				    <!-- light/dark mode toggle
                         <div class="menuentry"><a href=""></a></div> 
                     -->
+                    <div class="menuheader">
+                        <br>
+                    </div>
                     <div class="menuentry">
                         <a href="mailto:{{ .Site.Params.email }}?subject={{ .Site.Params.emailsubject }}">{{ .Site.Params.email }}</a>
                     </div>
                     <div class="menuentry">
-                        <a href="{{ .Site.Params.instagramlink }}">{{ .Site.Params.instagramhandle }}</a>
+                        <a href="{{ .Site.Params.instagramlink }}">Instagram {{ .Site.Params.instagramhandle }}</a>
+                    </div>
+                    <div class="menuentry">
+                        <a href="{{ .Site.Params.etsy }}">Etsy shop</a>
                     </div>
 
       			</div>

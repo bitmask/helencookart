@@ -10,7 +10,12 @@
 		<div>
                 {{ range $gallery.Pages }}
             		<a class="summary" href="{{ .RelPermalink }}">
-                		<img src="/{{ .Params.image }}" width=200px>
+
+                        {{ $res := resources.Get .Params.image | default ""}}
+                        {{ if $res }}
+                            {{ $res := $res.Fill "200x200 Center" }}
+                            <img src="{{ $res.RelPermalink }}" alt="{{ $res.Params.alt }}" width=200 heigh=200>
+                        {{ end }}
                     </a>
                     <!-- {{ .LinkTitle }} -->
                 {{ end }}

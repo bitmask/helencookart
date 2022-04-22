@@ -1,6 +1,11 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
-<img src="/{{ .Params.image }}" width=200px>
+{{ $res := resources.Get .Params.image }}
+{{ $res := $res.Resize "600x" }}
+<img src="{{ $res.RelPermalink }}" width=600px alt="{{ .Params.alt }}">
+<div>
+{{ .Params.alt }}
+</div>
 <div>
 media: {{ .Params.media }}
 </div>
