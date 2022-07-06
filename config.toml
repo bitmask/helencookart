@@ -26,6 +26,10 @@ assetDir = "assets"
 #    name="Colours"
 #    url="/colours"
 #    weight=3
+#  [[menu.main]]
+#    name="Apps"
+#    url="/apps"
+#    weight=3
   [[menu.main]]
     name="Blog"
     url="/blog"

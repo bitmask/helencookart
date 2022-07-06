@@ -5,7 +5,7 @@
   <div>
     {{ range $galleryname, $gallery := .Site.Taxonomies.galleries}}
         <div>
-            <h3> {{ title $galleryname }} </h3>
+            <h4> {{ title $galleryname }} </h4>
 		</div>
 		<div>
                 {{ range $gallery.Pages }}

@@ -1,0 +1,18 @@
+{{- $alt := .Get "alt" -}}
+{{- $link := .Get "link" -}}
+{{- $caption := .Get "caption" -}}
+{{- $res := .Get "src" -}}
+{{- $height := .Get "height" -}}
+{{- $width := .Get "width" -}}
+<div align=center>
+<a href="{{ $link }}">
+<figure>
+    <img
+        src="{{ $res }}"
+        alt="{{ $alt }}"
+        height="{{ $height }}" />
+     <figcaption>{{ $caption }}</figcaption>
+<figure>
+</a>
+</div>
+

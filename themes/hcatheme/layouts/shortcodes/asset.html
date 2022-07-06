@@ -1,0 +1,18 @@
+{{ $alt := .Get "alt" }}
+{{ $link := .Get "link" }}
+{{ $caption := .Get "caption" }}
+{{ $res := resources.Get (.Get "src") }}
+{{ $height := .Get "height" }}
+{{ $res := $res.Resize (printf "%dx" 400) }}
+<div align=center>
+<a href="{{ $link }}">
+<figure>
+    <img
+        src="{{ $res.RelPermalink }}"
+        alt="{{ $alt }}"
+        />
+     <figcaption>{{ $caption }}</figcaption>
+<figure>
+</a>
+</div>
+

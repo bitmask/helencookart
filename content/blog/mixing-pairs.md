@@ -2,6 +2,7 @@
 title: "Colourpaths"
 date: 2022-04-22T15:04:53+01:00
 draft: true
+image: mixing-pairs/blend-greens.jpg
 ---
 
 How I mix these colour swatches.
@@ -9,6 +10,8 @@ How I mix these colour swatches.
 I cut these out of an imperial sheet of Arches 300 gsm cold press watercolour paper.  They are 3 cm wide with 3 mm borders, so each square is 24 mm^2.  
 
 Choose the colours that will be mixed together.  
+
+{{% asset src="mixing-pairs/blend-greens.jpg" alt="some colour" height="200" %}}
 
 Paint the triangles for the top and bottom.  My convention is that the cooler colour goes on top.o
 

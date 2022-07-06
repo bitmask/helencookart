@@ -1,8 +1,8 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
+<h4>{{ .Title }}</h4>
 {{ $res := resources.Get .Params.image }}
-{{ $res := $res.Resize "600x" }}
-<img src="{{ $res.RelPermalink }}" width=600px alt="{{ .Params.alt }}">
+{{ $res := $res.Resize "400x" }}
+<img src="{{ $res.RelPermalink }}" width=400px alt="{{ .Params.alt }}">
 <div>
 {{ .Params.alt }}
 </div>
@@ -15,4 +15,16 @@ dimensions: {{ .Params.dimensions }}
 <div>{{ .Params.description }}</div>
 <br><br>
 {{ .Content }}
+
+  {{ with .FirstSection }}
+  <a href="{{ .Permalink }}">Back to gallery</a>
+  {{ end }}
+
+{{ with .PrevInSection }}
+  <a href="{{ .Permalink }}">Next</a>
+  {{ end }}
+
+{{ with .NextInSection }}
+  <a href="{{ .Permalink }}">Prev</a>
+  {{ end }}
 {{ end }}

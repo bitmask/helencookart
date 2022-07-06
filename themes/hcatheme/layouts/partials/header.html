@@ -16,12 +16,13 @@
 -->
 		  <div class="offset-by-three columns">
 			  <div class="nine columns">
-                <h3><a href="/"> {{ .Site.Title }}</a></h3>
+                <h3></h3>
 			  </div>
 		  </div>
 	  </div>
 	  <div class="row">
 		  <div class="three columns">
+                <div class="sitename"> <a href="/"><h4> {{ .Site.Title }} </h4> </a></div>
       			<div class="menu">
 				    {{ range .Site.Menus.main }}
 				    <div class="menuentry"><a href="{{ .URL }}">{{ .Name }}</a></div>

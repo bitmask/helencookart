@@ -2,6 +2,7 @@
 title: "New beginnings"
 date: 2022-01-17T14:26:52Z
 draft: false
+image: blog/new-beginnings.jpg
 ---
 
 Welcome, new year!  I feel like 2021 was a year of putting a lot of things into place, and 2022 is the year they can start to come alive.  First, starting with this new site!  As someone who last built websites 15 years ago, this whole process is much smoother today.  So here we are, a home for my art online.  
