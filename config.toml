@@ -5,8 +5,9 @@ theme = "hcatheme"
 assetDir = "assets"
 
 [Params]
-    # site logo
-    logo = "/logo.png"
+    logo = "logo.png"
+    banner = "banner.jpg"
+    banneralt = "green to yellow watercolour gradient"
     # params for links in the menu
     email = "helen.cook@gmail.com"
     emailsubject = "Mail from HelenCook.art"
@@ -16,16 +17,43 @@ assetDir = "assets"
 
 [taxonomies]
   gallery="galleries"
+  medium="media"
 
 [menu]
   [[menu.main]]
+    identifier="artwork"
     name="Artwork"
     url="/artwork"
     weight=2
-#  [[menu.main]]
-#    name="Colours"
-#    url="/colours"
-#    weight=3
+  [[menu.main]]
+    name="Transparency"
+    url="/artwork/transparency"
+    weight=1
+    parent="artwork"
+  [[menu.main]]
+    name="Mushrooms"
+    url="/artwork/mushrooms"
+    weight=2
+    parent="artwork"
+  [[menu.main]]
+    name="Standalone works"
+    url="/artwork/standalone-works"
+    weight=3
+    parent="artwork"
+  [[menu.main]]
+    name="Books"
+    url="/artwork/books"
+    weight=4
+    parent="artwork"
+  [[menu.main]]
+    name="Commissions"
+    url="/artwork/commissions"
+    weight=5
+    parent="artwork"
+  [[menu.main]]
+    name="Pigments"
+    url="/pigments"
+    weight=3
 #  [[menu.main]]
 #    name="Apps"
 #    url="/apps"

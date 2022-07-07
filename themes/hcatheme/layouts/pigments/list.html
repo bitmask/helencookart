@@ -1,0 +1,16 @@
+{{ define "main" }}
+<h4>{{ .Title }}</h4>
+<div>
+    {{ .Params.desc }}
+</div>
+{{ range .Pages.ByWeight }}
+
+    <h4><a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+
+    {{ $res := resources.Get .Params.image }}
+    {{ $res := $res.Fill "720x100 Center" }}
+    <img src="{{ $res.RelPermalink }}" alt="{{ .Params.imagealt }}" >
+
+{{ end }}
+{{ end }}
+

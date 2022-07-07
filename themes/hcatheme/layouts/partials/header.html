@@ -1,6 +1,13 @@
 
 
   <div class="container">
+      <div class="row">
+          <div class="twelve columns">
+              {{ $res := resources.Get .Site.Params.banner }}
+              {{ $res := $res.Fill "960x200 Center" }}
+              <img src="{{ $res.RelPermalink }}" alt="{{ .Site.Params.banneralt }}">
+          </div>
+      </div>
 	  <div class="row">
 <!--          
           <div class="three columns">
@@ -16,7 +23,6 @@
 -->
 		  <div class="offset-by-three columns">
 			  <div class="nine columns">
-                <h3></h3>
 			  </div>
 		  </div>
 	  </div>
@@ -26,6 +32,12 @@
       			<div class="menu">
 				    {{ range .Site.Menus.main }}
 				    <div class="menuentry"><a href="{{ .URL }}">{{ .Name }}</a></div>
+                        {{ if .HasChildren }}
+                            {{ range .Children }}
+				                <div class="menuentry">...<a href="{{ .URL }}">{{ .Name }}</a></div>
+                            {{ end }}
+
+                         {{ end }}
 				    {{ end }}
 				    <!-- light/dark mode toggle
                         <div class="menuentry"><a href=""></a></div> 

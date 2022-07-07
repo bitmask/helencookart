@@ -7,6 +7,5 @@ dimensions: 13x17 cm
 media: watercolour on paper
 description: Available
 draft: false
-galleries: ["Mushrooms"]
 ---
 

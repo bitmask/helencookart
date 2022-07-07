@@ -3,18 +3,18 @@
 
 <section>
   <div>
-    {{ range $galleryname, $gallery := .Site.Taxonomies.galleries}}
+    {{ range .Sections.ByWeight }}
         <div>
-            <h4> {{ title $galleryname }} </h4>
+            <h4> <a href="">{{ .Title }}</a></h4>
 		</div>
 		<div>
-                {{ range $gallery.Pages }}
+            {{ range  .Pages }} <!-- no recursive galleries -->
             		<a class="summary" href="{{ .RelPermalink }}">
 
                         {{ $res := resources.Get .Params.image | default ""}}
                         {{ if $res }}
                             {{ $res := $res.Fill "200x200 Center" }}
-                            <img src="{{ $res.RelPermalink }}" alt="{{ $res.Params.alt }}" width=200 heigh=200>
+                            <img src="{{ $res.RelPermalink }}" alt="{{ .Params.alt }}" width=200 heigh=200>
                         {{ end }}
                     </a>
                     <!-- {{ .LinkTitle }} -->
