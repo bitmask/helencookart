@@ -6,3 +6,5 @@ image: transparency/yellow-cup.jpg
 ---
 
 I have been playing with the idea of transparency recently. Thinking about how being transparent in a conversation results in being seen, but being physically transparent is something that can be overlooked. 
+
+See the full series in the <a href="{{< ref "artwork/transparency" >}}">gallery</a>.  

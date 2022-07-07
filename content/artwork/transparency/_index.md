@@ -6,4 +6,5 @@ weight: 10
 type: "artwork/gallery"
 ---
 
-A preview of my latest series.  The full release is coming later this year. 
+The first half of my latest series, the full release is coming later this year. 
+I've written a <a href="{{< ref "blog/transparency" >}}">post</a> that talks about this work in some more detail.

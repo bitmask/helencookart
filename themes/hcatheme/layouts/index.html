@@ -5,7 +5,7 @@
 <div>
     {{ $res := resources.Get .Params.image | default "" }}
     {{ if $res }}
-        {{ $res := $res.Fill "1000x1000" }}
+        {{ $res := $res.Fill "720x720 Center" }}
         <img src="{{ $res.RelPermalink }}" alt="" width="100%">
     {{ end }}
 </div>
