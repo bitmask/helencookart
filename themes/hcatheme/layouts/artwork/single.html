@@ -16,8 +16,8 @@
 </div>
 
 {{ $res := resources.Get .Params.image }}
-{{ $res := $res.Resize "400x" }}
-<img src="{{ $res.RelPermalink }}" width=400px alt="{{ .Params.alt }}">
+{{ $res := $res.Resize "550x" }}
+<img src="{{ $res.RelPermalink }}" width=550px alt="{{ .Params.alt }}">
 <div>
 {{ .Params.alt }}
 </div>
