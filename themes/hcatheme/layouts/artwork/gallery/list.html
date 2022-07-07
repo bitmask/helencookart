@@ -1,26 +1,17 @@
-
 {{ define "main" }}
-
-<section>
-  <div>
-    {{ range .Sections.ByWeight }}
-        <div>
-            <h4> <a href="{{ .CurrentSection.RelPermalink }}">{{ .Title }}</a></h4>
-		</div>
+<h4>{{ .Title }}</h4>
+{{ .Content }}
 		<div>
             {{ range  .Pages }} <!-- no recursive galleries -->
             		<a class="summary" href="{{ .RelPermalink }}">
 
                         {{ $res := resources.Get .Params.image | default ""}}
                         {{ if $res }}
-                            {{ $res := $res.Fill "120x120 Center" }}
-                            <img src="{{ $res.RelPermalink }}" alt="{{ .Params.alt }}" width=120 heigh=120>
+                            {{ $res := $res.Fill "200x200 Center" }}
+                            <img src="{{ $res.RelPermalink }}" alt="{{ .Params.alt }}" width=200 heigh=200>
                         {{ end }}
                     </a>
                     <!-- {{ .LinkTitle }} -->
                 {{ end }}
 		</div>
-    {{ end }}
-  </div>
-</section>
 {{ end }}

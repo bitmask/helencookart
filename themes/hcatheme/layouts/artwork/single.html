@@ -1,5 +1,20 @@
 {{ define "main" }}
 <h4>{{ .Title }}</h4>
+
+<div>
+{{ with .CurrentSection }}
+  <a href="{{ .Permalink }}">Back to gallery</a>
+{{ end }}
+
+{{ with .PrevInSection }}
+  <a href="{{ .Permalink }}">Next</a>
+{{ end }}
+
+{{ with .NextInSection }}
+  <a href="{{ .Permalink }}">Prev</a>
+{{ end }}
+</div>
+
 {{ $res := resources.Get .Params.image }}
 {{ $res := $res.Resize "400x" }}
 <img src="{{ $res.RelPermalink }}" width=400px alt="{{ .Params.alt }}">
@@ -7,24 +22,18 @@
 {{ .Params.alt }}
 </div>
 <div>
-media: {{ .Params.media }}
+    Year: {{ .Params.year }}
 </div>
 <div>
-dimensions: {{ .Params.dimensions }}
+    Media: {{ .Params.media }}
 </div>
-<div>{{ .Params.description }}</div>
+<div>
+    Dimensions: {{ .Params.dimensions }}
+</div>
+<div>
+    {{ .Params.description }}
+</div>
 <br><br>
 {{ .Content }}
 
-  {{ with .FirstSection }}
-  <a href="{{ .Permalink }}">Back to gallery</a>
-  {{ end }}
-
-{{ with .PrevInSection }}
-  <a href="{{ .Permalink }}">Next</a>
-  {{ end }}
-
-{{ with .NextInSection }}
-  <a href="{{ .Permalink }}">Prev</a>
-  {{ end }}
 {{ end }}

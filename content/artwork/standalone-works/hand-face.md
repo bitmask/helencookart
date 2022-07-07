@@ -1,5 +1,5 @@
 ---
-title: "Hand Face"
+title: "Hands Face"
 date: 2021-03-06T13:14:44Z
 year: 2021
 image: standalone-works/hand-face.jpg
