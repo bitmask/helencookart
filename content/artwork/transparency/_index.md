@@ -7,4 +7,4 @@ type: "artwork/gallery"
 ---
 
 The first half of my latest series, the full release is coming later this year. 
-I've written a <a href="{{< ref "blog/transparency" >}}">post</a> that talks about this work in some more detail.
+I've written a <a href="{{< ref "blog" >}}">post</a> that talks about this work in some more detail.
