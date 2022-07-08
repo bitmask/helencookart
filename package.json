@@ -1,0 +1,8 @@
+{
+  "name": "helencookart",
+  "version": "1.0.0",
+  "dependencies": {
+    "dotenv": "^1.0.0",
+    "node-fetch": "^1.0.0"
+  }
+}
