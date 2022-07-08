@@ -11,7 +11,7 @@ Another thing that has been coming together is creating a physical space to make
 
 In addition to getting the space ready, I've also done a couple of courses online this last year.  One through the botanic garden that was a nice opportunity to do some timed drawings on Thursday evenings focusing on different aspects of drawing. I've also been working through some of the self directed tracks on <a href="http://artprof.org">Art Prof</a>.  I completed the Art Prof painting track in December, with a series of 6 images focusing on different textures and techniques.  The the feedback and encouragement I got from the Art Prof community has really helped me develop my work.  One of the last images I made for the painting track was a <a href="{{< ref "/artwork/standalone-works/jellyfish" >}}">jellyfish</a>, and I really enjoyed playing with the transparency of it.  Transparency is something I'm definitely going to be exploring more of in the future.
 
-{{% asset src="standalone-works/jellyfish.jpg" height="300" alt="four panels of orange-pink jellyfish floating in a dark turquoise sea" %}}
+{{< asset src="/standalone-works/jellyfish.jpg" height="300" alt="four panels of orange-pink jellyfish floating in a dark turquoise sea" >}}
 
 As of the end of January, my contract with the University of Cambridge will have ended and I'm officially self employed.  Going forward, I'll have the time to really start using the space I've created and the ideas I've been incubating.  It's going to be an exciting year to make art!
 
