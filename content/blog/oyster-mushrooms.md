@@ -17,4 +17,4 @@ Their forms are fantastic, sculptural and nearly proud.  I explored these with a
 
 For the graphite studies, I really enjoy seeing the forms as almost abstract figures.  The directionality of the gills flows and curves, and the light on the surface makes them feel cavernous in places. 
 
-Mushrooms are a great subject, full of fascinating organic shapes, and are definitely fun to paint. 
+Mushrooms are a great subject, full of fascinating organic shapes, and are definitely fun to paint. See the whole <a href="{{< ref "/artwork/mushrooms" >}}">gallery</a>.  
