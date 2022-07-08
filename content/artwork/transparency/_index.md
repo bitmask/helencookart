@@ -6,5 +6,5 @@ weight: 10
 type: "artwork/gallery"
 ---
 
-The first half of my latest series, the full release is coming later this year. 
-I've written a <a href="{{< ref "/blog/transparency" >}}">post</a> that talks about this work in some more detail.
+My continuing series on transparency.  The remainder of the series will be available this fall.  
+I've written a [post that talks about the inspiration for this work]({{< ref "/blog/transparency" >}}) on my blog. 
