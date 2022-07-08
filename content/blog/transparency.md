@@ -1,7 +1,7 @@
 ---
 title: "Transparency"
 date: 2022-06-26T21:06:33+01:00
-draft: true
+draft: false
 image: transparency/yellow-cup.jpg
 ---
 
