@@ -1,7 +1,0 @@
-{
-  "name": "helencookart",
-  "version": "1.0.0",
-  "dependencies": {
-    "node-fetch": "^1.0.0"
-  }
-}
