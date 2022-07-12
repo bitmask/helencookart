@@ -22,9 +22,16 @@ summaryLength = 40
 
 [menu]
   [[menu.main]]
+    identifier="home"
+    name="Home"
+    url="/"
+    pre="<i class=\"fa fa-fw fa-home\"></i>"
+    weight=1
+  [[menu.main]]
     identifier="artwork"
     name="Artwork"
     url="/artwork"
+    pre="<i class=\"fa fa-fw fa-brush\"></i>"
     weight=2
   [[menu.main]]
     name="Transparency"
@@ -49,20 +56,25 @@ summaryLength = 40
 # [[menu.main]]
 #   name="Pigments"
 #   url="/pigments"
+#   pre="<i class=\"fa fa-fw fa-palette\"></i>"
 #   weight=3
 # [[menu.main]]
 #   name="Apps"
 #   url="/apps"
+#   pre="<i class=\"fa fa-fw fa-gear\"></i>"
 #   weight=4
   [[menu.main]]
     name="Updates"
     url="/blog"
+    pre="<i class=\"fa fa-fw fa-pen-nib\"></i>"
     weight=5
   [[menu.main]]
     name="About"
     url="/about"
+    pre="<i class=\"fa fa-fw fa-eye\"></i>"
     weight=6
   [[menu.main]]
     name="Contact"
     url="/contact"
+    pre="<i class=\"fa fa-fw fa-circle-question\"></i>"
     weight=7

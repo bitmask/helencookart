@@ -3,15 +3,15 @@
 
 <div>
 {{ with .CurrentSection }}
-  <a href="{{ .Permalink }}">Up to gallery</a>
-{{ end }}
-
-{{ with .PrevInSection }}
-  <a href="{{ .Permalink }}">Next</a>
+  <a href="{{ .Permalink }}"><i class="fa-solid fa-chevron-up"></i></a>
 {{ end }}
 
 {{ with .NextInSection }}
-  <a href="{{ .Permalink }}">Prev</a>
+  <a href="{{ .Permalink }}"><i class="fa-solid fa-chevron-left"></i></a>
+{{ end }}
+
+{{ with .PrevInSection }}
+  <a href="{{ .Permalink }}"> <i class="fa-solid fa-chevron-right"></i></a>
 {{ end }}
 </div>
 
