@@ -19,13 +19,13 @@
 {{ $res := $res.Resize "550x" }}
 <img src="{{ $res.RelPermalink }}" width=550px alt="{{ .Params.alt }}">
 <div>
-    Year: {{ .Params.year }}
+    {{ .Params.year }}
 </div>
 <div>
-    Media: {{ .Params.media }}
+    {{ .Params.media }}
 </div>
 <div>
-    Dimensions: {{ .Params.dimensions }}
+    {{ .Params.dimensions }}
 </div>
 <div>
     {{ .Params.description }}

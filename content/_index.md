@@ -2,6 +2,6 @@
 title: "Landing page"
 date: 2022-01-18T13:14:44Z
 draft: false
-image: standalone-works/oranges.jpg
+image: standalone-works/poppy.jpg
 catchphrase: "Watercolour artist capturing colourful moments of joy."
 ---

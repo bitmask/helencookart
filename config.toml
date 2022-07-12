@@ -1,6 +1,6 @@
 baseURL = "http://helencook.art/"
 languageCode = "en-us"
-title = "Helen Cook Art"
+title = "Helen Cook"
 theme = "hcatheme"
 assetDir = "assets"
 summaryLength = 40
@@ -41,16 +41,11 @@ summaryLength = 40
     url="/artwork/standalone-works"
     weight=3
     parent="artwork"
-  [[menu.main]]
-    name="Artist Books"
-    url="/artwork/books"
-    weight=4
-    parent="artwork"
-  [[menu.main]]
-    name="Commissions"
-    url="/artwork/commissions"
-    weight=5
-    parent="artwork"
+#  [[menu.main]]
+#    name="Artist Books"
+#    url="/artwork/books"
+#    weight=4
+#    parent="artwork"
 # [[menu.main]]
 #   name="Pigments"
 #   url="/pigments"
@@ -60,10 +55,14 @@ summaryLength = 40
 #   url="/apps"
 #   weight=4
   [[menu.main]]
-    name="Blog"
+    name="Updates"
     url="/blog"
     weight=5
   [[menu.main]]
     name="About"
     url="/about"
     weight=6
+  [[menu.main]]
+    name="Contact"
+    url="/contact"
+    weight=7
