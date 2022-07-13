@@ -1,0 +1,35 @@
+{{ $alt1 := .Get "alt1" }}
+{{ $link1 := .Get "link1" }}
+{{ $caption1 := .Get "caption1" }}
+{{ $res1 := resources.Get (.Get "src1") }}
+{{ $res1 := $res1.Resize (printf "%dx" 300) }}
+{{ $alt2 := .Get "alt2" }}
+{{ $link2 := .Get "link2" }}
+{{ $caption2 := .Get "caption2" }}
+{{ $res2 := resources.Get (.Get "src2") }}
+{{ $res2 := $res2.Resize (printf "%dx" 300) }}
+<div class="full column">
+    <div class="one-half column" align="center">
+        <a href="{{ $link1 }}">
+            <figure>
+                <img
+                    src="{{ $res1.RelPermalink }}"
+                    alt="{{ $alt1 }}"
+                    />
+                <figcaption>{{ $caption1 }}</figcaption>
+            <figure>
+        </a>
+    </div>
+    <div class="one-half column" align="center">
+        <a href="{{ $link2 }}">
+            <figure>
+                <img
+                    src="{{ $res2.RelPermalink }}"
+                    alt="{{ $alt2 }}"
+                    />
+                <figcaption>{{ $caption2 }}</figcaption>
+            <figure>
+        </a>
+    </div>
+</div>
+

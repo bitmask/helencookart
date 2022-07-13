@@ -1,5 +1,5 @@
 ---
-title: "Standalone Works"
+title: "Paintings"
 date: 2022-01-18T13:14:44Z
 draft: false
 weight: 80

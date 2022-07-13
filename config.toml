@@ -1,7 +1,7 @@
 baseURL = "http://helencook.art/"
 languageCode = "en-us"
 title = "Helen Cook"
-theme = "hcatheme"
+theme = ["hugo-cloak-email", "hcatheme"]
 assetDir = "assets"
 summaryLength = 40
 
@@ -44,7 +44,7 @@ summaryLength = 40
     weight=2
     parent="artwork"
   [[menu.main]]
-    name="Standalone works"
+    name="Paintings"
     url="/artwork/standalone-works"
     weight=3
     parent="artwork"

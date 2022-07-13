@@ -27,7 +27,8 @@ if (emailForm) {
 
 </script>
 
-<div>
+<div class="newsletter">
+    
 <b>Stay in touch</b> I'll send bimonthly updates about my creative process, what's inspiring me, and where there is joy to be found.
 <form class="email-form" name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field">
   <div hidden aria-hidden="true">
@@ -36,7 +37,6 @@ if (emailForm) {
       <input name="bot-field" />
     </label>
   </div>
-  <label for="email">Your email address</label>
   <div>
     <input type="email" name="email" placeholder="Email"  id="email" required />
     <button type="submit">Subscribe</button>

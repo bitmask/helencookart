@@ -6,7 +6,7 @@ type: about
 ---
 {{< asset src="about.jpg" width="100px" alt="a portrait of the artist" >}}
 
-You can reach my via email [helen.cook[at]gmail.com](mailto:helen.cook@gmail.com) or on [instagram @helencook](https://instagram.com/helencook).  Work is available to purchase in [my Etsy shop](https://www.etsy.com/uk/shop/HelenCookArt). 
+You can reach my via email {{< cloakemail address="helen.cook@gmail.com" >}} or on [instagram @helencook](https://instagram.com/helencook).  Work is available to purchase in [my Etsy shop](https://www.etsy.com/uk/shop/HelenCookArt). 
 
 
 
