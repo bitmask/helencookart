@@ -8,24 +8,26 @@
 {{ $caption2 := .Get "caption2" }}
 {{ $res2 := resources.Get (.Get "src2") }}
 {{ $res2 := $res2.Resize (printf "%dx" 300) }}
-<div class="full column">
-    <div class="one-half column" align="center">
+<div class="row">
+    <div class="blogimgsidebyside">
         <a href="{{ $link1 }}">
             <figure>
                 <img
                     src="{{ $res1.RelPermalink }}"
                     alt="{{ $alt1 }}"
+                    width="100%"
                     />
                 <figcaption>{{ $caption1 }}</figcaption>
             <figure>
         </a>
     </div>
-    <div class="one-half column" align="center">
+    <div class="blogimgsidebyside">
         <a href="{{ $link2 }}">
             <figure>
                 <img
                     src="{{ $res2.RelPermalink }}"
                     alt="{{ $alt2 }}"
+                    width="100%"
                     />
                 <figcaption>{{ $caption2 }}</figcaption>
             <figure>

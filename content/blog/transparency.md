@@ -9,7 +9,7 @@ I have been thinking a lot about the idea of transparency recently.
 Things that are transparent are often made of thin and fragile material, they can be see-through, nearly invisible and overlooked.
 But to be transparent in a personal relationship is to be truly seen, the exact opposite of being overlooked.
 
-{{< sidebyside src1="transparency/yellow-dish.jpg" src2="transparency/green-cup.jpg" >}}
+{{< sidebyside src1="transparency/yellow-dish.jpg" link1="/artwork/transparency/yellow-dish" src2="transparency/green-cup.jpg" link2="/artwork/transparency/green-cup">}}
 
 Although being seen by a partner feels very vulnerable, this leads to strength and protection, in contrast to the vulnerability of a fragile vase.
 
@@ -19,7 +19,7 @@ Transparency in politics is a foundation for trustworthiness and accountability 
 
 Who is the observer, and who has the power?  
 
-{{< sidebyside src1="transparency/brown-bottle.jpg" src2="transparency/blue-rim.jpg" >}}
+{{< sidebyside src1="transparency/brown-bottle.jpg" link1="/artwork/transparency/brown-bottle" src2="transparency/blue-rim.jpg" link2="/artwork/transparency/blue-rim" >}}
 
 In this series, I'm interested in exploring the small scale, the intimate.  Glass objects arranged as in a still life will reflect the colours of their interlocutors.  A blue vase viewed through a brown bottle will appear green.  A straight line will appear curved, a shadow on a surface will become a pattern of lines.  Complexity emerges from the conversation. Playing with the edge of abstraction, forms are reduced to just colour, but crisp lines remain as an anchor to reality.  
 

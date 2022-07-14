@@ -7,7 +7,7 @@ image: blog/sargent-mastercopy.jpg
 
 John Singer Sargent (1856 - 1925) was a prolific oil and watercolour painter known for his economy of brushstrokes.  I wanted to do this mastercopy to understand how he is able to create shape and depth from such a small number of strokes.  
 
-{{< asset src="blog/sargent-mastercopy.jpg" height="300" alt="my copy of Sargent's painting">}}
+{{< asset src="blog/sargent-mastercopy.jpg" alt="my copy of Sargent's painting">}}
 
 I chose to make this the same size as the original (45.5 x 30.5 cm) so I was sure I was working at the same scale and would have the same experience.  
 

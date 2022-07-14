@@ -1,36 +1,63 @@
 {{ define "main" }}
-<h4>{{ .Title }}</h4>
 
-<div>
-{{ with .CurrentSection }}
-  <a href="{{ .Permalink }}"><i class="fa-solid fa-chevron-up"></i></a>
-{{ end }}
+{{ $rel := string .CurrentSection.RelPermalink | replaceRE "/$" "" }}
+{{ $mysection := ($.Site.GetPage $rel).Pages  }}
+{{ $first := index $mysection 0 }}
+{{ $last := index (last 1 $mysection) 0 }}
 
-{{ with .NextInSection }}
-  <a href="{{ .Permalink }}"><i class="fa-solid fa-chevron-left"></i></a>
-{{ end }}
+<div class="row">
+    <div class="artworkpaginationprev">
+		{{ if .NextInSection }}
+			<a href="{{ .NextInSection.Permalink }}"><i class="fa-solid fa-chevron-left"></i> Prev</a>
+		{{ else }}
+			<a href="{{ $last.Permalink }}"><i class="fa-solid fa-chevron-left"></i> Prev</a>
 
-{{ with .PrevInSection }}
-  <a href="{{ .Permalink }}"> <i class="fa-solid fa-chevron-right"></i></a>
-{{ end }}
+		{{ end }}
+    </div>
+
+    <div class="artworkpaginationup">
+        {{ with .CurrentSection }}
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        {{ end }}
+    </div>
+
+    <div class="artworkpaginationnext">
+        {{ if .PrevInSection }}
+        	<a href="{{ .PrevInSection.Permalink }}"> Next <i class="fa-solid fa-chevron-right"></i></a>
+		{{ else }}
+        	<a href="{{ $first.Permalink }}"> Next <i class="fa-solid fa-chevron-right"></i></a>
+        {{ end }}
+    </div>
 </div>
 
-{{ $res := resources.Get .Params.image }}
-{{ $res := $res.Resize "550x" }}
-<img src="{{ $res.RelPermalink }}" width=550px alt="{{ .Params.alt }}">
-<div>
-    {{ .Params.year }}
+<div class="row artwork">
+        {{ $res := resources.Get .Params.image }}
+        {{ $res := $res.Resize "720x" }}
+        <img src="{{ $res.RelPermalink }}" width=100% alt="{{ .Params.alt }}">
 </div>
-<div>
-    {{ .Params.media }}
+
+
+<div class="row">
+    <div class="artworkdetails">
+        <div class="artworktitle"><em>{{ .Title }}</em> {{ .Params.year }}</div>
+        <div>
+            {{ .Params.media }}
+        </div>
+        <div>
+            {{ .Params.dimensions }}
+        </div>
+    </div>
+
+    <div class="artworkpurchase">
+        {{ if .Params.purchase }}
+            <a href="{{ .Params.purchase }}">Purchase</a>
+        {{ else }}
+            {{ .Params.description }}
+        {{ end }}
+    </div>
+
 </div>
-<div>
-    {{ .Params.dimensions }}
-</div>
-<div>
-    {{ .Params.description }}
-</div>
-<br><br>
+
 {{ .Content }}
 
 {{ end }}

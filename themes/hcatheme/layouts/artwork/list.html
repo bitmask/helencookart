@@ -1,8 +1,7 @@
 
 {{ define "main" }}
 
-<section>
-  <div>
+  <div class="twelve columns">
     {{ range .Sections.ByWeight }}
         <div>
             <h4> <a href="{{ .CurrentSection.RelPermalink }}">{{ .Title }}</a></h4>
@@ -20,7 +19,9 @@
                     <!-- {{ .LinkTitle }} -->
                 {{ end }}
 		</div>
+        <div class="twelve columns galleryseparator">
+        </div>
     {{ end }}
   </div>
-</section>
 {{ end }}
+

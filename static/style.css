@@ -33,10 +33,98 @@ h4 {
     font-size: 2.2em;
 }
 
+ul {
+    list-style: disc inside;
+}
+
 .menu {
     font-size: 1.7rem;
+}
+
+.menuicon {
+    float: left;
+    padding-right: 10px;
+}
+
+.menuentry {
+    color: var(--colmain);
+    padding-bottom: 5px;
+}
+
+.child {
+    padding-left: 45px;
 }
 
 .newsletter {
     margin-top: 100px;
 }
+
+.blogseparator {
+    border-top: 1px solid grey;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.blogimgsidebyside {
+    width: 50%;
+    float: left;
+    align: center;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.galleryseparator {
+    border-top: 1px;
+    margin-top: 25px;
+    padding-bottom: 25px;
+}
+
+.artwork {
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.artworktitle {
+    font-style: bold;
+}
+
+.artworkpaginationprev {
+    text-align: left;
+    width: 33.33333333333%;
+    float: left;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.artworkpaginationup {
+    text-align: center;
+    width: 33.33333333333%;
+    float: left;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.artworkpaginationnext {
+    text-align: right;
+    width: 33.33333333333%;
+    float: left;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.artworkdetails {
+    text-align: left;
+    width: 66.6666666666%;
+    float: left;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.artworkpurchase {
+    text-align: right;
+    width: 33.33333333333%;
+    float: left;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+

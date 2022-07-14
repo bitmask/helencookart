@@ -2,36 +2,40 @@
                 <div class="sitename"> <a href="/"><h4> {{ .Site.Title }} </h4> </a></div>
       			<div class="menu">
 				    {{ range .Site.Menus.main }}
-                    <div class="menuentry">{{ .Pre }}
-                        <a href="{{ .URL }}">{{ .Name }}</a></div>
+                    <div class="menuentry">
+                        <div class="menuicon">{{ .Pre }}</div> <a href="{{ .URL }}">{{ .Name }}</a></div>
                         {{ if .HasChildren }}
                             {{ range .Children }}
-                                <div class="menuentry">...{{ .Pre }}<a href="{{ .URL }}">{{ .Name }}</a></div>
+                                <div class="menuentry child"><div class="menuicon">{{ .Pre }}</div> <a href="{{ .URL }}">{{ .Name }}</a></div>
                             {{ end }}
 
                          {{ end }}
 				    {{ end }}
-				    <!-- light/dark mode toggle
-                        <div class="menuentry"><a href=""></a></div> 
-                    -->
                     <div class="menuheader">
                         <br>
                     </div>
                     <div class="menuentry">
-                        <i class="fa fa-fw fa-at"> </i>
+                        <div class="menuicon"> <i class="fa fa-fw fa-at"> </i>
+                        </div>
                         {{ partial "cloakemail" (dict "address" .Site.Params.email) }}
                     </div>
                     <div class="menuentry">
+                        <div class="menuicon">
                         <i class="fa fa-fw fa-instagram"></i>
+                        </div>
                         <a href="{{ .Site.Params.instagramlink }}">{{ .Site.Params.instagramhandle }}</a>
                     </div>
                     <div class="menuentry">
+                        <div class="menuicon">
                         <i class="fa fa-fw fa-etsy"></i>
+                        </div>
                         <a href="{{ .Site.Params.etsy }}">Shop</a>
                     </div>
 <!--
                     <div class="menuentry">
+                        <div class="menuicon">
                         <i class="fa fa-fw fa-github"></i>
+                        </div>
                         <a href="{{ .Site.Params.github }}">Code</a>
                     </div>
 -->
