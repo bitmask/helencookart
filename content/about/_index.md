@@ -4,7 +4,7 @@ date: 2022-01-18T13:14:44Z
 draft: false
 ---
 
-{{< asset src="about.jpg" alt="a portrait of the artist" >}}
+{{< smallasset src="about.jpg" alt="a portrait of the artist" >}}
 
 I am a scientist turned watercolour artist living in Cambridge, UK. 
 

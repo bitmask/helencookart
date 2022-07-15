@@ -6,7 +6,9 @@
     {{ $res := resources.Get .Params.image | default "" }}
     {{ if $res }}
         {{ $res := $res.Resize "720x Center" }}
-        <img src="{{ $res.RelPermalink }}" alt="" width="100%">
+        <a href="{{ (.Site.GetPage .Params.link).RelPermalink }}">
+            <img src="{{ $res.RelPermalink }}" alt="" width="100%">
+        </a>
     {{ end }}
 </div>
 <div>

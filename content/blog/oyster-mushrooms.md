@@ -5,7 +5,7 @@ draft: false
 image: mushrooms/mushroom-graphite-2.jpg
 ---
 
-We went out just before Christmas to a nearby patch of woods where an oak log fell years ago.  The log has been cultured with Pleurotus ostreatus and fruits prolifically after rain and cold.  I was fascinated by the forms and patterns these mushrooms make. 
+We went out just before Christmas to a fallen oak log in a nearby patch of woods.  The log has been naturally cultured with Pleurotus ostreatus, and it fruits prolifically after stresses like rain and cold.  I was fascinated by the forms and patterns these mushrooms make. 
 
 Oyster mushrooms are delicious and have the curious property that they contain a compound that will inhibit sweet taste receptors.  Sugar tastes vaguely sweet, but mostly just grainy.  It's a strange sensation, and I always wait to have dessert after eating these mushrooms!
 
@@ -18,7 +18,7 @@ link2="/artwork/mushrooms/oyster-mushroom-wc-3"
 alt2="watercolour painting of oyster mushrooms with darker caps" 
 >}}
 
-Their forms are fantastic, sculptural and nearly proud.  I explored these with a series of watercolours and then also some graphite studies of the textures in the gills on the underside of the caps.  I really enjoyed the subtle colours that make up the mushrooms, and after staring with a subtle almost monochromatic image, pushed the colour a bit farther in each painting.  In the last one I used Purpurite from the Daniel Smith Primatek series, contrasted with a mix of Goethite and transparent yellow.  There are very few red granulating paints to work with that I could mix a purple from.  I started using PBr11, a very strongly granulating burnt sienna colour, then added a bit more chroma with PR233 Potter's pink, but this still wasn't strong enough to mix a satisfying purple, so it was time to reach for the Primatek granulating purples.  These paintings used almost exclusively granulating paints, as I thought the grittiness of the granulation was appropriate for the grittiness of the mushrooms.  How often do you find one that doesn't have a bit of dirt on it?  
+Their forms are fantastic, sculptural and nearly proud.  I explored these with a series of watercolours and then also some graphite studies of the textures in the gills on the underside of the caps.  I really enjoyed the subtle colours that make up the mushrooms, and after staring with a subtle almost monochromatic image, pushed the colour a bit farther in each painting.  In the last one I used Purpurite from the Daniel Smith Primatek series, contrasted with a mix of Goethite and transparent yellow.  There are very few red granulating paints to work with that I could mix a purple from.  I started the series using PBr11, a very strongly granulating burnt sienna colour, then in the second and third paintings, added a bit more chroma with PR233 Potter's pink.  This still wasn't strong enough to mix a satisfying purple, so it was time to reach for the Primatek granulating purples.  These paintings used almost exclusively granulating paints, as I thought the grittiness of the granulation was appropriate for the grittiness of the mushrooms.  How often do you find one that doesn't have a bit of dirt on it?  
 
 {{< sidebyside 
 src1="mushrooms/mushroom-graphite-1.jpg" 
