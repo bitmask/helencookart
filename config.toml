@@ -58,11 +58,11 @@ summaryLength = 40
 #   url="/pigments"
 #   pre="<i class=\"fa fa-fw fa-palette\"></i>"
 #   weight=3
-# [[menu.main]]
-#   name="Apps"
-#   url="/apps"
-#   pre="<i class=\"fa fa-fw fa-gear\"></i>"
-#   weight=4
+ [[menu.main]]
+   name="Apps"
+   url="/apps"
+   pre="<i class=\"fa fa-fw fa-gear\"></i>"
+   weight=4
   [[menu.main]]
     name="Updates"
     url="/blog"
