@@ -1,5 +1,5 @@
 ---
-title: "Yellow dish"
+title: "Yellow Dish"
 date: 2022-07-04T13:14:44Z
 year: 2022
 image: transparency/yellow-dish.jpg

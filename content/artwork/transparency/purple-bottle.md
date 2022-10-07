@@ -1,5 +1,5 @@
 ---
-title: "Purple bottle"
+title: "Purple Bottle"
 date: 2022-03-21:14:44Z
 year: 2022
 image: transparency/purple-bottle.jpg

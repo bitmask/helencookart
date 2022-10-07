@@ -1,5 +1,5 @@
 ---
-title: "Blue rim"
+title: "Blue Rim"
 date: 2022-03-24T13:14:44Z
 year: 2022
 image: transparency/blue-rim.jpg

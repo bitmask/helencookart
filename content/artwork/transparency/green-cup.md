@@ -1,5 +1,5 @@
 ---
-title: "Green cup"
+title: "Green Cup"
 date: 2022-07-04T13:14:44Z
 year: 2022
 image: transparency/green-cup.jpg
