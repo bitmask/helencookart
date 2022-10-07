@@ -1,0 +1,24 @@
+
+{{- $src := resources.Get (.Get "src" ) -}}
+{{- $cool := .Get "cool"  -}}
+{{- $warm := .Get "warm"  -}}
+			
+<div class="row blendrow">
+			    <div class="blendlabelleft">
+				{{ $cool }}
+                </div>
+			<div class="blendimage">
+				<figure>
+					<img
+						src="{{ $src.RelPermalink }}"
+						width="100%"
+						/>
+				</figure>
+			</div>
+			    <div class="blendlabelright">
+				{{ $warm }}
+                </div>
+</div>
+
+
+
