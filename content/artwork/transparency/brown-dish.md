@@ -7,6 +7,7 @@ alt: looking through an empty glass tea light holder at the shapes formed by gre
 dimensions: 25.5x33.5 cm
 media: watercolour on paper
 description: Available
+purchase: "https://www.etsy.com/uk/listing/1318566138/transparency-2-brown-dish"
 draft: false
 ---
 

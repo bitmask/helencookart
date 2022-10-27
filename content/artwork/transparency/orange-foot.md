@@ -6,7 +6,7 @@ image: transparency/orange-foot.jpg
 alt: the foot of an yellow dish concentrates the colour of the glass and looks orange.  In the distance is a second foot and the rest of the dish, much paler, arcs upwards.  
 dimensions: 25x33.5 cm
 media: watercolour on paper
-description: Available
+description: Private collection
 draft: false
 ---
 

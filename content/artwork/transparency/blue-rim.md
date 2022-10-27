@@ -7,6 +7,7 @@ alt: a glass tumbler with a blue rim at the base, a yellow glass candle holder a
 dimensions: 25.5x33.5 cm
 media: watercolour on paper
 description: Available
+purchase: "https://www.etsy.com/uk/listing/1332547129/transparency-3-blue-rim"
 draft: false
 ---
 

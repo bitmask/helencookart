@@ -7,6 +7,7 @@ alt: a bright yellow glass serving dish stands on an upside down blue glass dish
 dimensions: 25.5x33.5 cm
 media: watercolour on paper
 description: Available
+purchase: "https://www.etsy.com/uk/listing/1332538567/transparency-5-yellow-cup"
 draft: false
 ---
 

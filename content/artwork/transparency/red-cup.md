@@ -7,6 +7,7 @@ alt: a red cup stands on the base of a blue wine glass, and is tilted but the fr
 dimensions: 25.5x33.5 cm
 media: watercolour on paper
 description: Available
+purchase: "https://www.etsy.com/uk/listing/1332549663/transparency-9-red-cup"
 draft: false
 ---
 

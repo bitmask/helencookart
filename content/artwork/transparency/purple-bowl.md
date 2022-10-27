@@ -7,6 +7,7 @@ alt: The horizontal lines of the rim, base and reflections of a purple bowl inte
 dimensions: 25x33.5 cm
 media: watercolour on paper
 description: Available
+purchase: "https://www.etsy.com/uk/listing/1318564372/transparency-10-purple-bowl"
 draft: false
 ---
 
