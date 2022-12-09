@@ -64,6 +64,11 @@ summaryLength = 40
 #   pre="<i class=\"fa fa-fw fa-gear\"></i>"
 #   weight=4
   [[menu.main]]
+    name="Watercolour Curious"
+    url="/wcc"
+    pre="<i class=\"fa fa-fw fa-parachute-box\"></i>"
+    weight=4
+  [[menu.main]]
     name="Updates"
     url="/blog"
     pre="<i class=\"fa fa-fw fa-pen-nib\"></i>"
