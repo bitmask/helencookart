@@ -23,11 +23,13 @@ These are examples of the completed dot card and discovery sheet.  Note that on 
 #### Videos
 
 Videos of me painting these out sheets are available here.  
-{{< vimeo videolink="https://player.vimeo.com/video/779718762?h=f511906da6&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="Watercolour Curious Autumn 2022 Dot sheet swatches" >}}
+{{< vimeo videolink="https://player.vimeo.com/video/779718762?h=f511906da6&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="Serviceberry Palette -- Dot card swatches" >}}
+
+{{< vimeo videolink="https://player.vimeo.com/video/780360406?h=dbedf6678a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="Serviceberry Palette -- Discovery sheet" >}}
 
 #### Purchase
 
-This kit is available to purchase in [my Etsy shop](https://www.etsy.com/uk/shop/HelenCookArt). 
+This kit is available to purchase in [my Etsy shop](https://www.etsy.com/uk/listing/1369093383/watercolour-curious).
 
 #### Feedback
 
