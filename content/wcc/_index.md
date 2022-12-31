@@ -12,7 +12,7 @@ Each seasonal palette is a set of 4 colours that capture the mood of the season 
 
 Included with each palette is a Discovery Sheet that provides guided exploration of different ways to mix the paints to create an inspiring range of hues and shades. The kit also includes two pieces of heavy weight 100% cotton watercolour paper, so you can use the results of your colour exploration to create your own beautiful, vibrant artwork on artist quality paper.  
 
-Below, you can see the palettes that I have developed, and the kits are available to purchase in [my Etsy shop](https://www.etsy.com/uk/shop/HelenCookArt). 
+Below, you can see the palettes that I have developed, and the kits are available to purchase in [my Etsy shop](https://www.etsy.com/uk/listing/1369089942/watercolour-curious-new-years-palette).
 
 If you have used one of the kits and would like to provide feedback, please [fill in this form](https://forms.gle/CgPkziFB4CgbPGvL7).
 
