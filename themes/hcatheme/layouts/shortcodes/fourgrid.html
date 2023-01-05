@@ -1,0 +1,73 @@
+{{ $alt1 := .Get "alt1" }}
+{{ $link1 := .Get "link1" }}
+{{ $caption1 := .Get "caption1" }}
+{{ $res1 := resources.Get (.Get "src1") }}
+{{ $res1 := $res1.Resize (printf "%dx" 300) }}
+{{ $alt2 := .Get "alt2" }}
+{{ $link2 := .Get "link2" }}
+{{ $caption2 := .Get "caption2" }}
+{{ $res2 := resources.Get (.Get "src2") }}
+{{ $res2 := $res2.Resize (printf "%dx" 300) }}
+{{ $alt3 := .Get "alt3" }}
+{{ $link3 := .Get "link3" }}
+{{ $caption3 := .Get "caption3" }}
+{{ $res3 := resources.Get (.Get "src3") }}
+{{ $res3 := $res3.Resize (printf "%dx" 300) }}
+{{ $alt4 := .Get "alt4" }}
+{{ $link4 := .Get "link4" }}
+{{ $caption4 := .Get "caption4" }}
+{{ $res4 := resources.Get (.Get "src4") }}
+{{ $res4 := $res4.Resize (printf "%dx" 300) }}
+{{ $caption := .Get "caption" }}
+<div class="row">
+    <div class="blogimgsidebyside">
+        <a href="{{ $link1 }}">
+            <figure>
+                <img
+                    src="{{ $res1.RelPermalink }}"
+                    alt="{{ $alt1 }}"
+                    width="100%"
+                    />
+                <figcaption>{{ $caption1 }}</figcaption>
+            <figure>
+        </a>
+    </div>
+    <div class="blogimgsidebyside">
+        <a href="{{ $link2 }}">
+            <figure>
+                <img
+                    src="{{ $res2.RelPermalink }}"
+                    alt="{{ $alt2 }}"
+                    width="100%"
+                    />
+                <figcaption>{{ $caption2 }}</figcaption>
+            <figure>
+        </a>
+    </div>
+</div>
+<div class="row">
+    <div class="blogimgsidebyside">
+        <a href="{{ $link3 }}">
+            <figure>
+                <img
+                    src="{{ $res3.RelPermalink }}"
+                    alt="{{ $alt3 }}"
+                    width="100%"
+                    />
+                <figcaption>{{ $caption3 }}</figcaption>
+            <figure>
+        </a>
+    </div>
+    <div class="blogimgsidebyside">
+        <a href="{{ $link4 }}">
+            <figure>
+                <img
+                    src="{{ $res4.RelPermalink }}"
+                    alt="{{ $alt4 }}"
+                    width="100%"
+                    />
+                <figcaption>{{ $caption4 }}</figcaption>
+            <figure>
+        </a>
+    </div>
+</div>

@@ -11,15 +11,21 @@ A new palette for a new year! Winter weather brings frost and snow, which means 
 
 {{< sidebyside src1="wcc/newyears-confetti.jpg" link1="/wcc" src2="wcc/newyears-swatches.jpg" link2="/wcc" caption1="Confetti of the deep, saturated colours in this palette" caption2="Swatches of the whole range of colours that can be mixed with this palette">}}
 
-#### Examples
+#### Example Sheets
 
 {{< asset src="wcc/newyears-pages.jpg" link="/wcc" caption="Completed dot card and discovery sheet">}}
-{{< asset src="wcc/newyears-example.jpg" link="/wcc" caption="Example painting done with this palette, highligting the range of darks that can be mixed">}}
-
 
 #### Videos
 
-Videos of me painting out these sheets are coming soon.  
+{{< vimeo videolink="https://player.vimeo.com/video/786358137?h=efdf67acd0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="New Year's Palette -- Dot Cards" >}}
+
+The discovery sheet video is coming soon. 
+
+#### Example Paintings
+
+For this painting of a night scene, I wanted to capture the idea of warm insides and cool outsides.  I wanted the light to rake across the page to help move the eye, and I wanted to try to show off the darker versions of the colours on this palette.  To see how I developed this painting, see the [step by step guide]( {{< ref "blog/develop-night-painting" >}}). 
+
+{{< asset src="wcc/newyears-example.jpg" link="/wcc" caption="Example painting done with this palette, highligting the range of darks that can be mixed, and using them to set off the brighter yellow, purples and reds">}}
 
 #### Purchase
 
