@@ -1,4 +1,4 @@
---
+---
 title: "Developing a Night Painting"
 date: 2023-01-02T16:27:56Z
 draft: true
