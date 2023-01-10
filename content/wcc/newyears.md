@@ -1,7 +1,7 @@
 ---
 title: "Winter 2023 -- New Year's Palette"
 date: 2022-12-30T15:57:25+01:00
-draft: true
+draft: false
 image: wcc/newyears-confetti.jpg
 ---
 
@@ -18,7 +18,6 @@ A new palette for a new year! Winter weather brings frost and snow, which means 
 #### Videos
 
 {{< vimeo videolink="https://player.vimeo.com/video/786358137?h=efdf67acd0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="New Year's Palette -- Dot Cards" >}}
-{{< vimeo videolink="https://player.vimeo.com/video/787993684?h=5b95c8628c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="New Year's Palette -- Discovery Sheet" >}}
 
 #### Example Paintings
 
