@@ -13,6 +13,8 @@ Finally, the colours of spring are starting to make themselves known again. The 
 
 Three of the colours on this palette are warm: a bright coral pink, a mid yellow, and a violet that's on the red side of purple.  Together these warm colours will mix a wide range of oranges, pinks and purples that work beautifully to paint spring crocuses.  
 
+{{< asset src="wcc/crocus-ig-wheel-noheader.jpg" link="/wcc" caption="The gamut of colours mixed on the colour wheel from these 4 paints" >}}
+
 To balance and complement the warms, we need some cool colours as well.  This palette includes a mid green that has lovely granulation, and will mix everything from the bright spring green of new growth to the more dark muted green of crocus greenery.  This complements the coral beautifully.  
 
 {{< sidebyside src1="wcc/crocus-cards-hand.jpg" link1="/wcc" src2="wcc/crocus-cards-stack.jpg" link2="/wcc" caption1="Purples and greens of the crocus palette" caption2="Cards painted in the full range of colours that can be mixed from the crocus palette">}}
@@ -36,7 +38,7 @@ For this painting of a patch of yellow crocuses, I wanted to capture the gesture
 
 #### Purchase
 
-This kit is available to purchase in [my Etsy shop](https://www.etsy.com/uk/listing/1369089942/watercolour-curious-new-years-palette).
+This kit is available to purchase in [my Etsy shop](https://www.etsy.com/uk/listing/1428603973/watercolour-curious-crocus-palette).
 
 #### Feedback
 
