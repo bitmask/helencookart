@@ -7,7 +7,7 @@
             <h4> <a href="{{ .CurrentSection.RelPermalink }}">{{ .Title }}</a></h4>
 		</div>
 		<div>
-            {{ range  .Pages }} <!-- no recursive galleries -->
+            {{ range  .Pages.ByDate.Reverse }} <!-- no recursive galleries -->
             		<a class="summary" href="{{ .RelPermalink }}">
 
                         {{ $res := resources.Get .Params.image | default ""}}
