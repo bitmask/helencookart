@@ -35,9 +35,14 @@ timeout = "60s"
     pre="<i class=\"fa fa-fw fa-brush\"></i>"
     weight=2
   [[menu.main]]
+    name="Lucidity"
+    url="/artwork/lucidity"
+    weight=1
+    parent="artwork"
+  [[menu.main]]
     name="Portraits"
     url="/artwork/portraits"
-    weight=1
+    weight=2
     parent="artwork"
   [[menu.main]]
     name="Transparency"
