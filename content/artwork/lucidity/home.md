@@ -1,12 +1,13 @@
 ---
 title: "No Home Here"
-date: 2023-06-04
+date: 2023-05-27
 year: 2023
 image: lucidity/home.jpg
 alt: Double exposure image of a man's face looking up and to the right, and thoughtfully down and to the left
 dimensions: 30x40 cm
 media: watercolour on paper
 description: Avaliable
+purchase: "https://www.etsy.com/uk/listing/1493600954/no-home-here"
 draft: false
 ---
 

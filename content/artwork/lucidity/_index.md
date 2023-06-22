@@ -1,6 +1,6 @@
 ---
 title: "Lucidity"
-date: 2023-06-01
+date: 2023-05-01
 draft: false
 weight: 10
 type: "artwork/gallery"
