@@ -5,7 +5,7 @@ draft: false
 image: open-studios/square.png
 ---
 
-{{< asset src="open-studios/square.png" link="/wcc" caption="">}}
+{{< asset src="open-studios/square.png" caption="">}}
 
 You are welcome to join me this July for Cambridge Open Studios.  Two months away seems like a long time in advance to make plans, but a very short time to prepare everything that I'm excited to show you. My garage will be converted into a display space to show my new series of more experimental watercolours, and there will be tea in the garden.  Come by, see my new work, and stay for a chat.  
 
