@@ -1,5 +1,5 @@
 ---
-title: "Autumn 2022 -- Serviceberry Palette"
+title: "Autumn -- Serviceberry Palette"
 date: 2022-11-06T15:57:25+01:00
 draft: false
 image: wcc/serviceberry.jpg

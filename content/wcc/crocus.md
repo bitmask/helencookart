@@ -1,5 +1,5 @@
 ---
-title: "Spring 2023 -- Crocus Palette"
+title: "Spring -- Crocus Palette"
 date: 2023-02-27T15:57:25+01:00
 draft: false
 image: wcc/crocus-inspo-purple.jpg
