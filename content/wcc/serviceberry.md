@@ -1,6 +1,7 @@
 ---
 title: "Autumn -- Serviceberry Palette"
 date: 2022-11-06T15:57:25+01:00
+timeless: true
 draft: false
 image: wcc/serviceberry.jpg
 ---

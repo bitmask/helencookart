@@ -1,6 +1,7 @@
 ---
 title: "Spring -- Crocus Palette"
 date: 2023-02-27T15:57:25+01:00
+timeless: true
 draft: false
 image: wcc/crocus-inspo-purple.jpg
 ---
