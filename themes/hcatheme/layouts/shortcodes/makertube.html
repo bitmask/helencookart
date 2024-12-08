@@ -1,0 +1,5 @@
+{{ $videolink := .Get "videolink" }}
+{{ $title := .Get "title" }}
+
+    <iframe title="{{ $title }}" width="560" height="315" src="{{ $videolink }}" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms">
+    </iframe>
