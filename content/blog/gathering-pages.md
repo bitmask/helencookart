@@ -1,4 +1,4 @@
----
+--
 title: "Gathering Pages Exhibition"
 date: 2024-12-02T16:27:56Z
 draft: false
@@ -13,6 +13,6 @@ Fortunately, the residency was able to be extended by a week, and in that time, 
 
 It was a great experience to have a new place to work, to have conversations with a bunch of lovely people and to get some perspectives on how my work is received. 
 
-I'm going to be showing these works on nettle paper at Cambridge Artworks in an exhibition called Gathering Pages on Jan 25-26 11-5. There will also be an opening on the Friday, Jan 24 6-8. 
+I'm going to be showing these works on nettle paper at Cambridge Artworks in an exhibition called Gathering Pages on February 8-9 11-5. There will also be an opening on the Friday, Feb 7 6-8. 
 
 
