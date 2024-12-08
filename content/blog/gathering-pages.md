@@ -1,4 +1,4 @@
---
+---
 title: "Gathering Pages Exhibition"
 date: 2024-12-02T16:27:56Z
 draft: false
