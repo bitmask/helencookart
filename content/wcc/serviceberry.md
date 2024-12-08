@@ -24,9 +24,11 @@ These are examples of the completed dot card and discovery sheet.  Note that on 
 #### Videos
 
 Videos of me painting these out sheets are available here.  
-{{< vimeo videolink="https://player.vimeo.com/video/779718762?h=f511906da6&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="Serviceberry Palette -- Dot card swatches" >}}
 
-{{< vimeo videolink="https://player.vimeo.com/video/780360406?h=dbedf6678a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="Serviceberry Palette -- Discovery sheet" >}}
+{{< makertube title="Watercolour Curious Serviceberry Dot Cards" videolink="https://makertube.net/videos/embed/79a523f5-21e0-4b2e-9422-d917e8b0b5aa?warningTitle=0" >}}
+
+{{< makertube title="Watercolour Curious Serviceberry Discovery Sheet" videolink="https://makertube.net/videos/embed/c993eb78-4086-44a9-8bb8-6930f10baa54?warningTitle=0" >}}
+
 
 #### Purchase
 

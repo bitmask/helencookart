@@ -18,9 +18,9 @@ A new palette for a new year! Winter weather brings frost and snow, which means 
 
 #### Videos
 
-{{< vimeo videolink="https://player.vimeo.com/video/786358137?h=efdf67acd0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="New Year's Palette -- Dot Cards" >}}
-{{< vimeo videolink="https://player.vimeo.com/video/787993684?h=5b95c8628c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="New Year's Palette -- Discovery Sheet" >}}
+{{< makertube title="Watercolour Curious New Year's Palette Dot cards" videolink="https://makertube.net/videos/embed/41db0e94-c60d-4541-af79-5109f974288d?warningTitle=0" >}}
 
+{{< makertube title="Watercolour Curious New Year’s Discovery sheet" videolink="https://makertube.net/videos/embed/6c376392-138c-46ae-aa2e-7513bb46fc2d?warningTitle=0" >}}
 
 #### Example Paintings
 

@@ -27,8 +27,7 @@ To balance and complement the warms, we need some cool colours as well.  This pa
 
 #### Videos
 
-{{< vimeo videolink="https://player.vimeo.com/video/802662755?h=ffba11d6d9&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="New Year's Palette -- Dot Cards" >}}
-
+{{< makertube title="Watercolour Curious Crocus Palette" videolink="https://makertube.net/videos/embed/bd6160e9-88ce-4532-b682-7aea83cfe49c?warningTitle=0" >}}
 
 #### Example Paintings
 

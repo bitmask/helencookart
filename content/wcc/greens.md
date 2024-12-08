@@ -32,7 +32,7 @@ Even though this palette is focused on green, we can also mix a nice range of or
 
 #### Videos
 
-{{< vimeo videolink="https://player.vimeo.com/video/972137287?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="Summer Palette -- Mixing Greens" >}}
+{{< makertube title="Watercolour Curious Summer Palette" videolink="https://makertube.net/videos/embed/8b3c6148-1c3b-4125-b8e4-632691cab440?warningTitle=0" >}}
 
 For more instructional details on how to paint out swatches and on how to mix paints, see the [howto videos]({{< ref "/wcc/howto" >}}). 
 
