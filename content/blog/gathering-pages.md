@@ -13,6 +13,6 @@ Fortunately, the residency was able to be extended by a week, and in that time, 
 
 It was a great experience to have a new place to work, to have conversations with a bunch of lovely people and to get some perspectives on how my work is received. 
 
-I'm going to be showing these works on nettle paper at Cambridge Artworks in an exhibition called Gathering Pages on February 8-9 11-5. There will also be an opening on the Friday, Feb 7 6-8. 
+I'm going to be showing these works on nettle paper at Cambridge Artworks in an exhibition called Gathering Pages on February 15-16th 11am-5pm. There will also be an opening on the Friday, Feb 14th 6-8pm. 
 
 
