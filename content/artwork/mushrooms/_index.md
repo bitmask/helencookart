@@ -1,5 +1,5 @@
 ---
-title: "Oyster Mushrooms"
+title: "Mushrooms"
 date: 2022-01-18T13:14:44Z
 draft: false
 weight: 70
