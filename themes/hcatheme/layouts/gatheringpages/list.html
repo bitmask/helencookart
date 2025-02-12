@@ -1,0 +1,17 @@
+{{ define "main" }}
+<h4>{{ .Title }}</h4>
+{{ .Content }}
+		<div>
+            {{ range  .Pages.ByWeight }} <!-- no recursive galleries -->
+            		<a class="summary" href="{{ .RelPermalink }}">
+
+                        {{ $res := resources.Get .Params.image | default ""}}
+                        {{ if $res }}
+                            {{ $res := $res.Fill "200x200 Left" }}
+                            <img src="{{ $res.RelPermalink }}" alt="{{ .Params.alt }}" width=200 heigh=200>
+                        {{ end }}
+                    </a>
+                    <!-- {{ .LinkTitle }} -->
+                {{ end }}
+		</div>
+{{ end }}
