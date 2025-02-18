@@ -10,3 +10,5 @@ image: nettlepaper/video-still.jpg
 title="3 weeks of making paper from stinging nettles in 60 seconds" 
 videolink="https://makertube.net/videos/embed/922b3264-1def-4de2-ac13-c834a9d127b1?warningTitle=0" 
 >}}
+
+A one minute video of the whole process of making paper from stinging nettles, from plant to pulp to page. 
