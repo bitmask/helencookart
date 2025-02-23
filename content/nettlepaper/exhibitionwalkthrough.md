@@ -56,7 +56,7 @@ Turning around, in the middle of the room is a low plinth that contains process 
 
 {{< sidebyside src1="nettlepaper/process1.jpg" src2="nettlepaper/process2.jpg" >}}
 
-Farther along the wall that had the lino prints is a series of monoprints called "Black Windows, White Bombs". 
+Farther along the wall that had the lino prints is a series of monoprints called ["Black Windows, White Bombs"](/artwork/bwwb). 
 
 {{< asset src="nettlepaper/bwwb.jpg" >}}
 
