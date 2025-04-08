@@ -29,9 +29,14 @@ timeout = "60s"
     pre="<i class=\"fa fa-fw fa-home\"></i>"
     weight=1
   [[menu.main]]
+    name="Garage Exhibitions"
+    url="/garage"
+    weight=2
+    pre="<i class=\"fa fa-fw fa-warehouse\"></i>"
+  [[menu.main]]
     name="Nettle Paper"
     url="/nettlepaper"
-    weight=1
+    weight=2
     pre="<i class=\"fa fa-fw fa-file\"></i>"
   [[menu.main]]
     identifier="artwork"
