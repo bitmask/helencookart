@@ -50,29 +50,34 @@ timeout = "60s"
     weight=1
     parent="artwork"
   [[menu.main]]
+    name="Paths"
+    url="/artwork/paths"
+    weight=2
+    parent="artwork"
+  [[menu.main]]
     name="Accommodations"
     url="/artwork/accommodations"
-    weight=2
+    weight=3
     parent="artwork"
   [[menu.main]]
     name="Experimental"
     url="/artwork/experimental"
-    weight=3
+    weight=4
     parent="artwork"
   [[menu.main]]
     name="Weeds"
     url="/artwork/weeds"
-    weight=4
+    weight=5
     parent="artwork"
   [[menu.main]]
     name="Lucidity"
     url="/artwork/lucidity"
-    weight=5
+    weight=6
     parent="artwork"
   [[menu.main]]
     name="Portraits"
     url="/artwork/portraits"
-    weight=6
+    weight=7
     parent="artwork"
   [[menu.main]]
     name="Transparency"
