@@ -56,7 +56,13 @@ Ben Varney's first tool is line, a strong vibrant line, that gets buried - & occ
 
 #### Helen Cook
 
+{{< asset src="garage/doq-helen-wall.jpg" link="" caption="5 of Helen's watercolour paintings hanging on the wall" >}}
 {{< asset src="garage/doq-helenbrowser.jpg" link="" caption="Helen's work in the browser" >}}
+
+{{< makertube
+title="Browsing Paths watercolours by Helen Cook" 
+videolink="https://makertube.net/videos/embed/frVDUEaf7DDBB1wuuvhwws" 
+>}}
 
 [Browse the whole album](/artwork/paths)
 
