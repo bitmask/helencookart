@@ -43,6 +43,7 @@ Mark van Heygen uses painting as a way to focus and think, and describes paintin
 
 #### Ben Varney
 
+
 {{< asset src="garage/doq-benwall.jpg" link="" caption="5 of Ben Varney's paintings and two of Mark's (blue far left and white center)" >}}
 {{< asset src="garage/doq-ben-chimera.jpg" link="" caption="Chimera, Ben Varney, 2025 Oil on canvas, 30x40 cm" >}}
 {{< asset src="garage/doq-ben-rootsandtoes.jpg" link="" caption="Roots and Toes, Ben Varney, 2025 Oil on canvas, 85x60 cm" >}}
@@ -51,6 +52,9 @@ Mark van Heygen uses painting as a way to focus and think, and describes paintin
 {{< asset src="garage/doq-ben-chimera2.jpg" link="" caption="Chimera (2), Ben Varney, 2025 Oil on canvas, 40x61 cm" >}}
 {{< asset src="garage/doq-ben-bloom.jpg" link="" caption="Bloom, Ben Varney, 2025 Oil on board, 18x18 cm" >}}
 {{< asset src="garage/doq-ben-shelves.jpg" link="" caption="Shelves of Ben's smaller paintings" >}}
+
+
+[Ben's website](https://bonelab.wordpress.com/blog-2/)
 
 Ben Varney's first tool is line, a strong vibrant line, that gets buried - & occasionally resurrected - by layers of paint. Texture is created through many techniques, some carefully planned & some open to chance; including pressing wet paintings together to transfer paint, creating patterns like lichen or the wear on long faded signs. Colour is hard found, tortuously built up and mixed for a personal, plastic deepening of what are transitory shades in nature. Imagery and ideas are developed from local research - walks organized to visit folk art in medieval carving or painting - layers of paint echo the layers of use the landscape is put to. An unofficial piece of history. And also the paint is worked to points of resolution analogous of growth and decay. Wherein drawings and patterning inspired by lichen and root systems and flow of liquid hit points of disintegration, and the painting itself appears to break down. Drawings might return but are nearly always broken into fragments or ghostly forms, and then combined in unexpected ways. The overall effect of the paintings is to present a richly textured canvas of closely considered and connected ideas that encourages reflection.
 
