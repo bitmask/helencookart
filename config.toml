@@ -4,7 +4,7 @@ title = "Helen Cook"
 theme = ["hugo-cloak-email", "hcatheme"]
 assetDir = "assets"
 summaryLength = 40
-timeout = "60s"
+timeout = "300s"
 
 [Params]
     logo = "logo.png"
