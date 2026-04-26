@@ -7,9 +7,9 @@ summary: "Spectacle and state of frustration"
 ---
 
 #### Exhibition
-Announcing an exhibition of new work from Karen Daye-Hutchinson, Ben Varney, and Helen Cook
+Announcing an exhibition of new work from [Karen Daye-Hutchinson](https://www.karendayehutchinson.com/), [Ben Varney](https://bonelab.wordpress.com/about-2/), and [Helen Cook](https://www.helencook.art/about)
 
-Exhibition Dates: **May 2nd - 4th** 2026 11:00 am - 5:00 pm
+Exhibition Dates: **May 2nd - 4th** 2026 11:00 am - 4:00 pm
 
 Private View: (May Day Party) May 1st 5:00 - 8:00 pm 
 
@@ -17,9 +17,7 @@ And by appointment through the end of the month
 
 {{< asset src="garage/disquiet-flyer.jpg" link="" caption="Flyer" >}}
 
-#### Artist Statement
-
-text by Ben
+#### Artist Statement by Ben Varney
 
 one year after our exhibition with painter Mark Van Heygen "Dynamics of Quietude", we present a counterpoint
 
